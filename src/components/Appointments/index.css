@@ -1,0 +1,123 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  padding-top: 30px;
+  min-height: 100vh;
+  padding-bottom: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.appointments-data-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.data-container {
+  width: 60%;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #171f46;
+}
+.heading2 {
+  font-size: 23px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #171f46;
+}
+.label-element {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #b5b7c4;
+}
+.input-element {
+  padding: 10px;
+  border: 1px solid #b5b7c4;
+  color: #171f46;
+  width: 70%;
+  border-radius: 7px;
+}
+.button {
+  padding: 10px;
+  border-radius: 7px;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border: none;
+  width: 90px;
+}
+.image {
+  height: 200px;
+  width: 40%;
+  display: block;
+}
+.line {
+  width: 100%;
+  color: #b5b7c4;
+  margin-top: 10px;
+}
+.heading-star-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.star-button {
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+  height: 30px;
+  margin-top: 20px;
+  background-color: transparent;
+}
+.star-button-fill {
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: #9897f0;
+  color: #ffffff;
+  height: 30px;
+  margin-top: 20px;
+}
+.appointments-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .image {
+    display: none;
+  }
+  .data-container {
+    width: 100%;
+  }
+  .input-element {
+    width: 90%;
+  }
+  .heading2 {
+    font-size: 20px;
+  }
+  .star-button {
+    margin-top: 10px;
+  }
+  .star-button-fill {
+    margin-top: 10px;
+  }
+}

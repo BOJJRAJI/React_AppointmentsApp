@@ -1,0 +1,38 @@
+.list-item {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+}
+.name-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #171f46;
+  margin-top: 10px;
+}
+.star-image-button {
+  border: none;
+  background-color: transparent;
+}
+.star-image {
+  height: 15px;
+  width: 15px;
+}
+.date-formate {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}
+@media screen and (max-width: 576px) {
+  .list-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
